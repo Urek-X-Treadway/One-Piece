@@ -1,0 +1,78 @@
+body{
+            background-color: #121212;
+            color: cornflowerblue;
+            font-family: 'Hack Nerd Font','Trispace','monospace','sans-serif';
+
+        }
+
+        h1{
+            background-color: #121212;
+            font-size: 30px;
+            text-align: center;
+            font-family: 'Hack Nerd Font','Trispace','monospace','sans-serif';
+
+        }
+
+        nav P{
+            text-align: center;
+            font-size: 17px;
+            border: 2px solid cornflowerblue;
+            border-radius: 7px;
+            width: 150px;
+            display: inline-block;
+            margin-right: 10px;
+            padding: 10px;
+            background-color: #121212;
+            color: cornflowerblue;
+        }
+
+        nav P:hover{
+            text-align: center;
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 7px;
+            width: 150px;
+            display: inline-block;
+            margin-right: 10px;
+            padding: 10px;
+            background-color: cornflowerblue;
+            color: #121212;
+        }
+
+        nav{
+            text-align: center;
+        }
+
+        .poster_cont{
+            color: cornflowerblue;
+            border: 3px solid cornflowerblue;
+            width: 289px;
+            height: 414px;
+            margin-right: 25px;
+
+
+
+
+        }
+
+        img{
+            width: 289px;
+            height: 414px;
+        }
+
+        .manga_detail_cont{
+            color: cornflowerblue;
+            border: 3px solid cornflowerblue;
+            width: 1060px;
+            height: 414px;
+            padding-left: 20px;
+
+        }
+
+
+
+
+        .full_containter{
+            color: cornflowerblue;
+            display: flex;
+            flex-wrap: wrap;
+        }
