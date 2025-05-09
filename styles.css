@@ -13,6 +13,61 @@ body{
 
         }
 
+
+        a{
+            text-decoration: none;
+        }
+
+
+        #imdb_button{
+            background-color: cornflowerblue;
+            border: 2px solid #121212;
+            color: #121212;
+            width: 150px;
+            border-radius: 17px;
+            height: 45px;
+            font-family: 'Hack Nerd Font','Trispace','monospace','sans-serif';
+            font-size: 20px;
+        }
+
+        #imdb_button:hover{
+            background-color: #121212;
+            border: 2px solid cornflowerblue;
+            color: cornflowerblue;
+            width: 150px;
+            border-radius: 17px;
+            height: 45px;
+            font-family: 'Hack Nerd Font','Trispace','monospace','sans-serif';
+            font-size: 20px;
+        }
+
+        #imdb_button:active{
+            background-color: #121212;
+            border: 2px solid cornflowerblue;
+            color: cornflowerblue;
+            width: 150px;
+            border-radius: 17px;
+            height: 45px;
+            font-family: 'Hack Nerd Font','Trispace','monospace','sans-serif';
+            font-size: 20px;
+        }
+
+
+        #test_button{
+            background-color: cornflowerblue;
+            border: 2px solid #121212;
+            color: #121212;
+            width: 150px;
+            border-radius: 17px;
+            height: 45px;
+            font-family: 'Hack Nerd Font','Trispace','monospace','sans-serif';
+            font-size: 20px;
+        }
+
+
+
+
+
         nav P{
             text-align: center;
             font-size: 17px;
@@ -48,10 +103,6 @@ body{
             width: 289px;
             height: 414px;
             margin-right: 25px;
-
-
-
-
         }
 
         img{
@@ -59,7 +110,14 @@ body{
             height: 414px;
         }
 
-        .manga_detail_cont{
+       
+        .full_containter{
+            color: cornflowerblue;
+            display: flex;
+
+        }
+
+         .manga_detail_cont{
             color: cornflowerblue;
             border: 3px solid cornflowerblue;
             width: 1060px;
@@ -68,63 +126,75 @@ body{
 
         }
 
-
-
-        .full_containter{
-            color: cornflowerblue;
-            display: flex;
-        }
-
-
-    
-
-
         .title_cont{
-            background-color: cornflowerblue;
-            border: 2px solid #121212;
-            margin-top: 12px;
-            border-radius: 17px;
-            width: 220px;
-            height: 35px;
             display: flex;
-
+            width: fit-content;
+            height: fit-content;
         }
-        .title_cont:hover{
-            background-color: #121212;
-            border: 2px solid cornflowerblue;
-            margin-top: 12px;
-            border-radius: 17px;
-            width: 220px;
-            height: 35px;
-            display: flex;
 
-        }
+
 
         #title_p{
             color: rgb(237, 100, 100);
-            border: 2px solid;
-            border-radius: 17px;
-            font-size: 20px;
-
-            width: 90px;
-            height: 35px;
-
-
-            text-align: left;
- 
+            margin-right: 5px;
+            font-size: 15px;
         }
-
         #title_p_name{
-            color: rgb(0, 0, 0);
-            border: 2px solid;
-            border-radius: 17px;
-            font-size: 20px;
+            color: cornflowerblue;
+            font-size: 15px;
 
-            width: 130px;
-            height: 35px;
-
-            text-align: right;
         }
+
+
+        span{
+            color: rgb(237, 100, 100);
+        }
+
+
+
+
+
+
+
+
+
+
+
+    .mini-page {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 1060px;
+        height: 655px;
+        background-color: white;
+        border: 2px solid #aaa;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        z-index: 100;
+    }
+
+    #test_button:hover .mini-page {
+        display: block;
+    }
+
+    .mini-page iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+
+
+    .mini-page img{
+        width: 1060px;
+        height: 655px;
+
+    }
+
+
+
+
+
 
         
 
